@@ -30,6 +30,11 @@ header {
     height: 80px;
 }
 
+header h1 {
+    font-size: 32px;
+    margin: 0; 
+}
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -108,6 +113,7 @@ nav ul li a:hover {
 }
 
 
+
 footer {
     
     background-color: black;
@@ -127,12 +133,17 @@ footer {
         padding: 10px;
     }
 
+    header h1 {
+        font-size: 20px;
+    }
+
     nav ul li {
         margin-right: 10px;
     }
 
     .activities-list {
         padding: 20px;
+        
     }
 
     .activities-list h2 {
@@ -144,11 +155,10 @@ footer {
     }
 
     .activities-row {
+        margin-bottom: 80px;
         flex-direction: column;
         align-items: center;
     }
 
-    .activity-card {
-        max-width: 100%;
-    }
+
 }
